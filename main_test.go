@@ -62,7 +62,7 @@ func TestIsPasswordValid(t *testing.T) {
 func TestInsertUser(t *testing.T) {
 	mconn := SetConnection("MONGOSTRING", "trensentimen")
 	var userdata User
-	userdata.Username = "dani3"
+	userdata.Username = "dani2"
 	userdata.Role = "Admin"
 	userdata.Password = "secret"
 
